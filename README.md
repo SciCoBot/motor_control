@@ -26,7 +26,7 @@ Ela foi pensada **sem o uso do pino ENABLE**.
 SimpleMotor: para controle de um motor DC por vez.
 
 - **SimpleMotor::init(pinIN1, pinIN2):** inicia um objeto para controle de um motor DC a partir dos parâmetros especificados;
-- *SimpleMotor::forward(pwmValForward):** envia sinal PWM que rotaciona o motor para frente, caso _enable seja igual a true, com PWM igual a *pwmValForward*;
+- **SimpleMotor::forward(pwmValForward):** envia sinal PWM que rotaciona o motor para frente, caso _enable seja igual a true, com PWM igual a *pwmValForward*;
 - **SimpleMotor::backward(pwmValBackward):** envia sinal PWM que rotaciona o motor para trás, caso _enable seja igual a true, com PWM igual a  *pwmValBackward*;
 - **SimpleMotor::stop():** para a rotação do motor;
 - **SimpleMotor::enableOff():** muda o valor da variável _enable para *false*;
